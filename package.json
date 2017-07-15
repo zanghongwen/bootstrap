@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap examples",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanghongwen/bootstrap.git"
+  },
+  "keywords": [
+    "no",
+    "keywords"
+  ],
+  "author": "Steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanghongwen/bootstrap/issues"
+  },
+  "homepage": "https://github.com/zanghongwen/bootstrap",
+
+}
