@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    </script>
+    <script src="/javascripts/data.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#map').ready(function() {
+            var mpaUrl = 'map.html?'
+            var id = 'login_name=' + obj.sites[0].name
+            var route_url = mpaUrl + id
+            $("#map").attr("href", route_url)
+
+        })
+    })
+    </script>
+</head>
+
+<body>
+    <a href="" id="map">mapmap</a>
+    <form action="" method="get">
+        <input type="text" name="login_name" value="" />
+        <input type="submit" value="Sign In" />
+    </form>
+    <label for="jasdf" id="name">12312312</label>
+    <div class="container">
+        <h1>hello world</h1>
+    </div>
+    <div class="container" id="table1">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Firstname</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td id="name"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Debbie</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
