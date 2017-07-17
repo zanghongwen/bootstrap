@@ -1,3 +1,7 @@
 .node _modules/
 *.iml
 .idea/
+access.log
+log/
+node_modules/
+
