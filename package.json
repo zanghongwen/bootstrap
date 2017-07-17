@@ -1,28 +1,23 @@
 {
   "name": "bootstrap",
-  "version": "1.0.0",
-  "description": "bootstrap examples",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.15.3",
-  },
-  "devDependencies": {},
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "node test"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zanghongwen/bootstrap.git"
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "rotating-file-stream": "^1.2.2",
+    "scp": "0.0.3",
+    "scp2": "^0.5.0",
+    "serve-favicon": "~2.4.2"
   },
-  "keywords": [
-    "no",
-    "keywords"
-  ],
-  "author": "Steven",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zanghongwen/bootstrap/issues"
-  },
-  "homepage": "https://github.com/zanghongwen/bootstrap",
-
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
 }
